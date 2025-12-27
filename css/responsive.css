@@ -1,0 +1,43 @@
+/* responsive.css */
+@media (max-width: 900px) {
+  .shop-name { font-size: 28px; }
+  .header-top { padding: 8px; }
+}
+
+/* mobile layout / hamburger styles */
+@media (max-width: 700px) {
+
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-toggle { display: inline-block; }
+
+  .nav-list {
+    position: absolute;
+    right: 12px;
+    top: 48px;
+    background: rgba(0,0,0,0.08);
+    backdrop-filter: blur(6px);
+    border-radius: 8px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+  }
+
+  .nav-list.open {
+    display: flex;
+  }
+
+  .nav-list a {
+    padding: 8px 12px;
+    color: #fff;
+  }
+
+  .container { padding: 20px 12px; }
+  section { padding: 28px 12px; }
+  .gallery-grid img { width: 45vw; height: 30vw; }
+}

@@ -1,0 +1,57 @@
+/* header.css */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(90deg, #2fbaff, #e4d1da);
+  color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header layout */
+.header {
+  padding: 18px 16px 22px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  background: linear-gradient(90deg, #2fbaff, #dd2476);
+  color: white;
+}
+
+/* top row */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* shop name */
+.shop-name {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.shop-name .brand { color: #fff; }
+
+.shop-name .highlight {
+  background: linear-gradient(90deg, #ffe53b, #ff2525, #ff512f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* header info below */
+.header-info {
+  text-align: center;
+  margin-top: 12px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  opacity: 0.95;
+}

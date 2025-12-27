@@ -1,0 +1,30 @@
+/* sections.css */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about p,
+.contact p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.services ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.services li {
+  margin: 10px 0;
+  font-size: 16px;
+}
