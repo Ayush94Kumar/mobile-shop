@@ -1,7 +1,7 @@
 /* header.css */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background: linear-gradient(90deg, #2fbaff, #e4d1da);
+  background: linear-gradient(90deg, #f3e5f7, #bad9e6);
   color: #222;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@ body {
 .header {
   padding: 18px 16px 22px;
   border-bottom: 1px solid rgba(0,0,0,0.06);
-  background: linear-gradient(90deg, #2fbaff, #dd2476);
+  background: linear-gradient(90deg, #bad9e6,#f3e5f7);
   color: white;
 }
 

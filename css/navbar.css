@@ -33,3 +33,33 @@
   background: rgba(255,255,255,0.12);
   color: #fff;
 }
+
+/* ================= NAV LINK COLORS ================= */
+
+/* About */
+#nav-about {
+  color: #525351;
+}
+
+/* Products */
+#nav-products {
+  color: #525351;
+}
+
+/* Gallery */
+#nav-gallery {
+  color: #525351;
+}
+
+/* Contact */
+#nav-contact {
+  color: #525351;
+}
+
+/* Hover effect stays same theme */
+#nav-about:hover,
+#nav-products:hover,
+#nav-gallery:hover,
+#nav-contact:hover {
+  color: #f8f9fa;
+}
