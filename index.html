@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/product-navbar.css">
+
 </head>
 
 <body>
@@ -36,7 +38,7 @@
       <nav class="navbar">
         <button class="nav-toggle" aria-label="Menu">☰</button>
         <ul class="nav-list">
-          <li><a href="#about" id="nav-about">About</a></li>
+          <li><a href="about.html" id="nav-about">About</a></li>
           <li><a href="#products" id="nav-products">Products</a></li>
           <li><a href="#gallery" id="nav-gallery">Gallery</a></li>
           <li><a href="#contact" id="nav-contact">Contact</a></li>
@@ -50,49 +52,30 @@
   <!-- ================= MAIN ================= -->
   <main>
 
-    <!-- PRODUCTS (with category filters) -->
-    <section class="products" id="products">
-      <h2 style="text-align:center;margin-top:20px;">Our Products</h2>
+    <!-- PRODUCTS -->
+<section class="products" id="products">
+  <h2 style="text-align:center;margin-top:20px;">Our Products</h2>
+  <!-- Product grid -->
+  <div id="product-list" class="container">
+    <!-- cards injected by JS -->
+  </div>
+</section>
 
-      <!-- Category Filters -->
-      <div class="category-filters" style="text-align:center; margin: 12px 0 24px;">
-        <button class="cat-btn active" data-cat="all">All</button>
-        <button class="cat-btn" data-cat="mobile">Mobiles</button>
-        <button class="cat-btn" data-cat="electronics">Electronics</button>
-      </div>
-
-      <!-- Product grid container (script.js will fill this) -->
-      <div id="product-list" class="container">
-        <!-- cards will be injected here by script.js -->
-      </div>
-    </section>
-
-
-    <!-- ABOUT -->
-    <section class="about" id="about">
-      <h2>About Us</h2>
-      <p>
-        Indian Communication is a trusted retailer of mobile phones and electronic products based in Ilmasnagar Bazzar,
-        Samastipur. We offer a wide selection of smartphones, accessories, and home electronics from well-known brands
-        such as Samsung, Vivo, Oppo, Realme, Poco, and more.
-        </p>
-        <br>
-       <p>
-        Customer satisfaction is our top priority. We believe in genuine products, transparent pricing, and reliable
-        service. Our goal is to make modern technology easily accessible to everyone in our community.
-      </p>
-    </section>
 
     <!-- SERVICES -->
     <section class="services" id="services">
       <h2>Products & Services</h2>
       <ul>
-        <li>📱 Latest Smartphones (Android & iPhone)</li>
-        <li>🔋 Mobile Accessories (Chargers, Covers, Earphones)</li>
-        <li>📲 SIM Cards & Recharge</li>
-        <li>🛠 Software Updates</li>
-        <li>🔧 Basic Mobile Repair</li>
-      </ul>
+  <li>📱 Latest Smartphones (Samsung, Vivo, Oppo, Realme, Poco & more)</li>
+  <li>🔌 Mobile Accessories (Chargers, Covers, Earphones, Data Cables)</li>
+  <li>📲 SIM Cards & Mobile Recharge Services</li>
+  <li>❄️ Air Conditioners (Split & Window AC)</li>
+  <li>🧊 Refrigerators & Deep Freezers</li>
+  <li>📺 Smart TVs & Home Electronics</li>
+  <li>🧺 Washing Machines & Kitchen Appliances</li>
+  <li>🛠 Mobile Software Updates & Basic Repair Support</li>
+</ul>
+
     </section>
 
     <!-- GALLERY -->

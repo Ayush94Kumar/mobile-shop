@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Indian Communication</title>
+
+  <!-- SAME CSS FILES as index (keeps design consistent) -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+  <!-- HEADER (same top row so navbar looks identical) -->
+  <header class="header">
+    <div class="header-top">
+
+      <!-- SHOP NAME -->
+      <h1 class="shop-name">
+        <span class="brand">Indian</span>
+        <span class="highlight">Communication</span>
+      </h1>
+
+      <!-- NAVBAR: Note hrefs point to pages -->
+      <nav class="navbar">
+        <button class="nav-toggle" aria-label="Menu">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html" id="nav-home">Home</a></li>
+          <li><a href="about.html" id="nav-about">About</a></li>
+          <li><a href="index.html#products" id="nav-products">Products</a></li>
+          <li><a href="index.html#gallery" id="nav-gallery">Gallery</a></li>
+          <li><a href="index.html#contact" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN: About page content -->
+  <main>
+    <section class="about" id="about-page">
+      <h2>About Indian Communication</h2>
+
+      <p>
+        Indian Communication is a trusted retailer of mobile phones and electronic products based in Ilmasnagar Bazzar, Samastipur. We offer a wide selection of smartphones, accessories, and home electronics from well-known brands such as Samsung, Vivo, Oppo, Realme, Poco, and more.
+      </p>
+
+      <p style="margin-top:18px;">
+        Customer satisfaction is our top priority. We believe in genuine products, transparent pricing, and reliable service. Our goal is to make modern technology easily accessible to everyone in our community.
+      </p>
+
+      <h3 style="margin-top:28px; text-align:center;">Why choose us</h3>
+      <ul style="max-width:700px; margin:12px auto; list-style: disc; padding-left:20px; color:var(--text-muted);">
+        <li>Genuine brand products and accessories</li>
+        <li>Competitive prices and honest deals</li>
+        <li>Reliable after-sales support and basic repairs</li>
+        <li>Friendly, local customer service</li>
+      </ul>
+
+      <p style="text-align:center; margin-top:22px;">
+        <a class="btn" href="index.html#products">Browse Products</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- FOOTER (same as index) -->
+  <footer class="footer">
+    <p><strong>Email:</strong> h.s.twinkle8051238081@gmail.com</p>
+    <p><strong>Phone:</strong> 6200006263</p>
+    <p>© 2025 Indian Communication</p>
+  </footer>
+
+  <!-- scripts (navbar + products). products.js is safe if product-list missing -->
+  <script src="js/navbar.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>
