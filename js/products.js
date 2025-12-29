@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Samsung Galaxy A15", price: 14999, image: "image/samsung_a_15.jpg" },
 
     { name: "Vivo V29", price: 32999, image: "image/vivoV295G.jpg" },
-    { name: "Vivo Y20", price: 12999, image: "image/vivoy20.jpg" },
+    { name: "Vivo Y20", price: 12999, image: "image/vivo_y20.jpg" },
 
     { name: "Oppo Reno 10", price: 34999, image: "image/oppo_reno10pro.jpg" },
     { name: "Oppo A38", price: 13999, image: "image/oppoA38.jpg" },
